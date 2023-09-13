@@ -6,20 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENV_CLASSIFY</title>
     <link rel="stylesheet" href="index.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-cpu"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite/dist/tf-tflite.min.js"></script>
-    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/tasks@0.0.1-alpha.8"></script>
+    
 </head> 
 
 <body>
     <div class="textarea-container">
-        <textarea placeholder="Enter a movie review"></textarea>
+        <textarea placeholder="Nhập vào headline về môi trường" id="myTextarea"></textarea>
         <div class="btn">
-            Classify
+            Phân loại
         </div>
     </div>
     <div class="result"></div>
+    <script src="index.js"></script>
 </body>
 
 </html>
